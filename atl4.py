@@ -37,4 +37,11 @@ class Voiture:
         self.kilometrage = kilometrage
         self.etat = False
         self.chauffeur = None
+    def afficher_Info(self):
+        print (f"cette voiture matriculee : {self.matricule} , anne de sortie: {self.annee} d'une marque : {self.marque} , kilometrage: {self.kilometrage}")
+        if self.etat == True:
+            print(f"cette  voiture est pris par ce chauffeur : {self.chauffeur.nom} {self.chauffeur.prenom} {self.chauffeur.prenom} et son numero de permis est : {self.chauffeur.numero_Permis} ")
+        else:
+            print(" voiture disponible !")
+
 
