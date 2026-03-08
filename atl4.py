@@ -50,11 +50,11 @@ e3=Employee("c0033","zizou","laala")
 v1=Voiture("mob06",2004,"TOYOTA",200000)
 v2=Voiture("abc50",2014,"KIA",164000)
 v3=Voiture("mkjs8",2010,"TOYOTA",225000)
+
+e1.affecter_Voiture(v1)
+e2.affecter_Voiture(v2)
+e3.affecter_Voiture(v3)
 e1.afficher_Info()
 e2.afficher_Info()
 e3.afficher_Info()
-v1.afficher_Info()
-v2.afficher_Info()
-v3.afficher_Info()
-
 
