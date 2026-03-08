@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e530a5c6-f52d-4ff0-98ee-c108165c0eab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/atl4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Atelier4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Atelier4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atl4.py" beforeDir="false" afterPath="$PROJECT_DIR$/atl4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
