@@ -44,4 +44,12 @@ class Voiture:
         else:
             print(" voiture disponible !")
 
+e1=Employee("a0011","ferhat","mehdioui")
+e2=Employee("b0022","ali","manis")
+e3=Employee("c0033","zizou","laala")
+v1=Voiture("mob06",2004,"TOYOTA",200000)
+v2=Voiture("abc50",2014,"KIA",164000)
+v3=Voiture("mkjs8",2010,"TOYOTA",225000)
+
+
 
