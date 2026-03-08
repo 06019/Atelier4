@@ -29,6 +29,12 @@ class Employee:
             print("il a pas pris cette voiture pour la retirer!")
 
 
-
-
+class Voiture:
+    def __init__(self, matricule,annee,marque,kilometrage):
+        self.matricule = matricule
+        self.annee = annee
+        self.marque = marque
+        self.kilometrage = kilometrage
+        self.etat = False
+        self.chauffeur = None
 
