@@ -17,10 +17,14 @@ class Employee:
         if self.etat == True:
             print("il a deja  pris une voiture !")
         else :
-            self.voiture = voiture
-            self.etat = True
-            print("voiture affectee a votre employe !")
-            voiture.chauffeur = self
+            if voiture.etat == True:
+                print ("voiture indisponible")
+            else:
+                self.voiture = voiture
+                self.etat = True
+                voiture.etat = True
+                print("voiture affectee a votre employe !")
+                voiture.chauffeur = self
     def retirer_voiture(self,voiture):
         if self.etat == True:
             self.etat = False
@@ -51,13 +55,10 @@ v1=Voiture("mob06",2004,"TOYOTA",200000)
 v2=Voiture("abc50",2014,"KIA",164000)
 v3=Voiture("mkjs8",2010,"TOYOTA",225000)
 
-e1.affecter_Voiture(v1)
+
+
 e2.affecter_Voiture(v2)
-e3.affecter_Voiture(v3)
-e1.afficher_Info()
-e2.afficher_Info()
-e3.afficher_Info()
-e1.retirer_voiture(v1)
-e1.afficher_Info()
+e1.affecter_Voiture(v2)
+
 
 
